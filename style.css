@@ -1,0 +1,152 @@
+
+.section1{
+    background-color:green;
+   
+    width: 100%;
+    text-align: center;
+    letter-spacing: 8px;
+    
+}
+
+.section2{
+    background-color:rgb(126, 218, 244);
+    
+    
+    text-align: center;
+    letter-spacing: 5px;
+    
+    
+}
+
+.section3{
+    background-color:rgb(126, 218, 244);
+    
+    text-align: center;
+    letter-spacing: 4px;
+
+}
+
+
+
+.firstimg{
+    height:100%;
+    width: 100%;
+}
+
+
+
+/* name */
+
+.name {
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: "Pacifico";
+    font-style: bold;
+    font-size: large;
+    color: rgb(74, 205, 183);
+    animation: text 3s 1;
+    
+  }
+
+.intro{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: "Beau Rivage";
+    font-style: bold;
+    font-size: large;
+    color: rgb(74, 205, 183);
+    animation: text 3s 1;
+}
+
+.container span{
+    display: block;
+    
+} 
+@keyframes text {
+    0%{
+      color: black;
+      margin-bottom: -40px;
+  
+    }
+    30%{
+      letter-spacing: 20px;
+      margin-bottom: -40px;
+  
+    }
+    90%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+  
+    }
+  }
+
+  /* about me */
+
+.aboutimg{
+    float: left;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.about{
+   padding: 0 12% 0 12%;
+   
+}
+
+.aboutme{
+    
+    width: 30%;
+    font-style: "montserrat";
+    font-size: 200%;
+    text-align: left;
+    padding: 7% 9% 0% 2%;
+
+}
+
+.skillhead{
+  
+  padding: 5% 4%;
+  font-size: 50px;
+  
+}
+
+.skills{
+  
+  
+  margin: 0 80px 0 80px;
+  align-content: center;
+}
+
+img{
+  height: 60%;
+  width: 60%;
+}
+
+#testimonials {
+   
+  text-align: center;
+  background-color: rgb(64, 84, 81);
+  color: white;
+  size: 20px;
+}
+.carousel-item {
+ padding:7% 10%;
+}
+
+.testimonial-carousel .carousel-control-prev-icon{
+  color: rgb(230, 17, 17);
+  size: 20px;
+}
+
+.end{
+  background-color: white;
+  height:100px;
+
+}
+
